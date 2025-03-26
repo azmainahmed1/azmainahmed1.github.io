@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Jaro:opsz@6..72&family=Londrina+Shadow&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Road+Rage&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Londrina+Shadow&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Road+Rage&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Londrina+Shadow&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+<style>
+	
+	input {
+		font-size: 22px;s
+	}
+	
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #224;
+}
+div {
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+
+  
+}
+h1 {
+  font-family: "Open Sans";
+  text-align: center;
+  font-size: 75px;
+  color: #a54;
+  margin: 60px 0 0 0;
+}
+h2 {
+  text-align: center;
+  color: red;
+  margin: 0px 0 70px 0;
+  font-family: "Road Rage", sans-serif;
+}
+p {
+  color: rgba(255,100,100,1);
+
+  background: linear-gradient(bottom, rgba(245, 40, 145,1), rgba(200,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(245, 40, 145,1), rgba(200,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(245, 40, 145,1), rgba(200,0,0,.4));
+  
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+  font-family: "Jacquarda Bastarda 9", serif;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.first{
+  background-image: url("https://koala.sh/api/image/v2-5jkk0-w4zos.jpg?width=1344&height=768&dream");
+}
+.second{
+  background-image: url("https://cdn.britannica.com/65/235965-050-A5D740E2/Croissants-jar-of-jam.jpg");
+}
+.dessert{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRZfryfEAFP5Pdgmzg3DmxHY6CrnM8Ko5REfBQBH5AjyBEkuqxPKrboHK9_v3fio39u-k&usqp=CAU");
+}
+.price {
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+</style>
+
+</head>
+
+<body>
+<h1>Azmain's Cafe</h1>
+<h2>New York Cities Coffee Central</h2>
+<div class="first">
+	<input class="quantities" type="number" class="quantities" min="0" style="width: 50px">
+  <p>Regular Coffee  <span class="price">$2</span><br />
+  <small>Line the basket of your coffee maker with a filter. Grind coffee beans to medium or medium-fine grind size. Bring filtered water to a boil, then let it sit for a minute. Pour enough water into the filter to wet it completely, and let it drain into your cup or coffee pot. </small></p>
+</div>
+
+<div class="second">
+	<input class="quantities" type="number" class="quantities" min="0" style="width: 50px">
+  <p>Deluxe Crossiant <span class="price">$1</span><br />
+  <small>The dough is layered with butter, rolled and folded several times in succession, then rolled into a thin sheet, in a technique called laminating. </small></p>
+</div>
+  
+<div class="dessert">
+	<input class="quantities" type="number"class="quantities"  min="0" style="width: 50px">
+  <p>Coffee Cakes <span class="price">$1</span><br />
+  <small>a moist, tender cake that is usually topped with some kind of streusel topping and served alongside coffee or tea at breakfast.</small></p>
+</div>
+
+  <br><br> 
+  <input id="Name" placeholder="Your name">
+  <input id="Email" placeholder="Your email">
+  <input id="submit" type="submit">
+  <br><br> 
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+  
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-app.js";
+	import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/11.0.2/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyCRXufEEgYk2tB4uVnFh20Wd-twftIQ0Ro",
+      authDomain: "cafe-9bff8.firebaseapp.com",
+      projectId: "cafe-9bff8",
+      storageBucket: "cafe-9bff8.firebasestorage.app",
+      messagingSenderId: "151147543058",
+      appId: "1:151147543058:web:215fdff7a1085ff751f6cb",
+      measurementId: "G-YF78HJ1893"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+	
+	const Name = document.querySelector("#Name") 
+	const Email = document.querySelector("#Email")
+	document.querySelector('#submit').addEventListener('click', Submit)
+    const quantities = document.querySelectorAll(".quantities")
+    const itemsList = ["Crossaint", "Coffee Cake", "Coffee"]
+    const prices = document.querySelectorAll(".price") 
+	
+	 
+	
+	
+	function Submit() {
+	  const timestamp = buildTimestamp()
+		let total = 0 
+		let cart = { }
+		for  (let i=0; i<quantities.length; i=i+1) {
+		  if (quantities[i].value != "0" && quantities[i].value != "") {	
+ 			let price = prices[i].innerHTML.replace('$', '')
+		    total = total + quantities[i].value * price 
+		    cart[itemsList[i]] = parseInt(quantities[i].value) 
+		  }
+		  quantities[i].value = ""
+
+		  
+		}
+		
+	  
+	  set(ref(db, timestamp), {
+		  Name: Name.value,
+	      email: Email.value,
+		  cart: cart,
+         totalPrice: total,
+         paid: "not yet",
+		  
+	  });
+
+	  Name.value = ""
+	  Email.value = ""
+	}
+	
+	function buildTimestamp() {
+	  const now = new Date();
+	  let timestamp = now.getFullYear().toString() + "/";
+	  //const month = now.toLocaleString('default', { month: 'long' });
+
+	  let month = now.getMonth()+1   //add 1 because Javascript uses 0 for January
+	  month = month.toString()
+	  month = addLeadingZero(month)
+	  timestamp += month + "/"; 
+
+	  let date = now.getDate().toString()
+	  date = addLeadingZero(date)
+	  timestamp += date + "/";
+
+	  let hours = now.getHours().toString()
+	  hours = addLeadingZero(hours)
+	  timestamp += hours + ":";
+
+	  let minutes = now.getMinutes().toString()
+	  minutes = addLeadingZero(minutes)
+	  timestamp += minutes + ":";
+
+	  let seconds = now.getSeconds().toString()
+	  seconds = addLeadingZero(seconds)
+	  timestamp += seconds;
+  
+	  return timestamp
+	}
+	
+	function addLeadingZero(units) {
+		if (units.length < 2) {
+			units = "0" + units
+		}
+		return units
+	}
+	
+
+	
+	
+  </script>
+
+
+</body>
